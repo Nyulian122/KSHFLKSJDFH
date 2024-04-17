@@ -1,0 +1,127 @@
+.padre{
+    width: 3600px;
+    height: 1200px;
+    border: 1px solid black;
+
+    display: flex;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 350px 50px 300px 345px;
+}
+
+.hijo1{
+
+    margin-top: 25px;
+    margin-left: 25px;
+
+    border-radius: 25px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    grid-column-start: 0;
+    grid-column-end: 2;
+
+    width: 300px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.contenedor1{
+
+    border-radius: 25px;
+
+    margin-left: 25px;
+    margin-right: 5px;
+
+    width: 3550px;
+    height: 350px;
+    border: 1px solid black;
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.caja1{
+
+    display: flex;
+
+    margin-top: 25px;
+    margin-left: 100px;
+    height: 200x;
+    width: 700px;
+
+    grid-row-start: 4;
+    grid-row-end: 4;
+
+    border-radius: 25px;
+}
+
+.caja2{
+
+    margin-top: 25px;
+    margin-left: 100px;
+    height: 200x;
+    width: 700px;
+
+    grid-row-start: 4;
+    grid-row-end: 4;
+
+
+    border-radius: 25px;
+}
+
+.caja3{
+
+    margin-top: 25px;
+    margin-left: 100px;
+    height: 200x;
+    width: 700px;
+
+    grid-row-start: 4;
+    grid-row-end: 4;
+
+
+
+    border-radius: 25px;
+}
+
+.caja4{
+
+    margin-top: 25px;
+    margin-left: 100px;
+    height: 200x;
+    width: 700px;   
+
+    grid-row-start: 4;
+    grid-row-end: 4;
+
+    
+
+    border-radius: 25px;
+}
+
+.img1{
+
+    margin-top: 25px;
+    margin-left: 50px;
+    border-radius: 25px;
+    
+    width: 600px;
+    height: 200px;
+
+    border: 1px solid black;
+}
+
+.text1{
+
+    margin-top: 50PX;
+
+    text-align: center;
+
+    grid-row-start: 6;
+    grid-row-end: 5;
+}
